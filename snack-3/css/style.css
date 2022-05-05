@@ -21,12 +21,22 @@ div {
     width: 200px;
 }
 
-#green {
+/* #green {
     color: green;
     text-align: center;
 }
 
 #red {
     color: red;
+    text-align: center;
+} */
+
+.red{
+    color:red;
+    text-align: center;
+}
+
+.green{
+    color:green;
     text-align: center;
 }
