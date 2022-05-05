@@ -10,7 +10,9 @@ do {
         alert("Puoi inserire solo numeri! Riprova:");
     } else {
         somma += numero;
-        array.push(numero);
+        if (somma < 50) {
+            array.push(numero);
+        }
     }
 
 } while (somma < 50 || isNaN(numero));
