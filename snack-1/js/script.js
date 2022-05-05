@@ -17,4 +17,4 @@ do {
 
 } while (somma < 50 || isNaN(numero));
 
-console.log(`Somma = ${somma} array = ${array}`);
+console.log(`array = ${array}`);
